@@ -70,6 +70,12 @@ For Software:
 
 # Screenshots 
 
+
+*The oracle responding to a useless question.*
+
+<img width="1070" height="1066" alt="07aac0b4-c2cb-4ac9-ada1-74586fad8fdd" src="https://github.com/user-attachments/assets/23425e12-75c9-4b31-9779-6e5f930732fb" />
+
+
  *The oracle responding to multiple useful question.*
  
 <img width="1074" height="1061" alt="ccd461e0-4cde-4872-8260-c195be8b76fa" src="https://github.com/user-attachments/assets/e0df49aa-8f90-4857-b9f0-92b9f35a9a18" />
