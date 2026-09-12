@@ -1,3 +1,4 @@
+
 # The Useless Oracle 🎯
 
 ## Basic Details
@@ -69,25 +70,17 @@ For Software:
 
 # Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name) *Add caption explaining what this shows — e.g. the Oracle giving a dismissive one-line brush-off to a useful question*
+<img width="1074" height="1061" alt="ccd461e0-4cde-4872-8260-c195be8b76fa" src="https://github.com/user-attachments/assets/e0df49aa-8f90-4857-b9f0-92b9f35a9a18" />
+ *The oracle responding to multiple useful question.*
 
-![Screenshot2](Add screenshot 2 here with proper name) *Add caption — e.g. a serious multi-paragraph philosophical answer to an absurd question*
+ <img width="1066" height="1168" alt="e7b4e4f5-89ca-480f-8104-74aa1cbb831b" src="https://github.com/user-attachments/assets/123953e0-43d8-464e-bf3b-d5436bd0c254" /> *The Oracle Responding to a useless question.*
 
-![Screenshot3](Add screenshot 3 here with proper name) *Add caption — e.g. the Uselessness Gauge swinging toward PROFOUND*
 
 # Diagrams
 
-![Workflow](Add your workflow/architecture diagram here) *User message → classify (USEFUL/USELESS) → pick persona + generation settings → stream response → update Uselessness Gauge*
+ <img width="2813" height="2000" alt="architecture-diagram" src="https://github.com/user-attachments/assets/5498db21-b961-4318-9a81-51f2abba6627" />
+ *User message → classify (USEFUL/USELESS) → pick persona + generation settings → stream response → update Uselessness Gauge*
 
-### Project Demo
-
-# Video
-
-[Add your demo video link here] *Show a useful question getting dismissed (and escalating in anger across repeated attempts), then a useless question getting the full philosophical treatment*
-
-# Additional Demos
-
-[Add any extra demo materials/links]
 
 ## Team Contributions
 
