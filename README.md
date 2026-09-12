@@ -70,10 +70,14 @@ For Software:
 
 # Screenshots 
 
-<img width="1074" height="1061" alt="ccd461e0-4cde-4872-8260-c195be8b76fa" src="https://github.com/user-attachments/assets/e0df49aa-8f90-4857-b9f0-92b9f35a9a18" />
  *The oracle responding to multiple useful question.*
+ 
+<img width="1074" height="1061" alt="ccd461e0-4cde-4872-8260-c195be8b76fa" src="https://github.com/user-attachments/assets/e0df49aa-8f90-4857-b9f0-92b9f35a9a18" />
 
- <img width="1066" height="1168" alt="e7b4e4f5-89ca-480f-8104-74aa1cbb831b" src="https://github.com/user-attachments/assets/123953e0-43d8-464e-bf3b-d5436bd0c254" /> *The Oracle Responding to a useless question.*
+
+ *The Oracle Responding to a useless question.*
+ 
+ <img width="1066" height="1168" alt="e7b4e4f5-89ca-480f-8104-74aa1cbb831b" src="https://github.com/user-attachments/assets/123953e0-43d8-464e-bf3b-d5436bd0c254" /> 
 
 
 # Diagrams
@@ -84,7 +88,7 @@ For Software:
 
 ## Team Contributions
 
-- Lena Lilly Francis [Idea, UI design, Presentation]
+- Lena Lilly Francis: [Idea, UI design, Presentation]
 - Akshay V: [ full-stack build: Ollama integration, persona prompt design, packaging]
 
 ---
