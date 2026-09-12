@@ -1,103 +1,99 @@
-<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
-
-
-
-# [Project Name] 🎯
-
+# The Useless Oracle 🎯
 
 ## Basic Details
-### Team Name: [Name]
 
+### Team Name: [Akena]
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Lena Lilly Francis - [Christ College Of Engineering]
+- Member 2: [Akshay V] - [Christ College Of Engineering]
+
 
 ### Project Description
-[2-3 lines about what your project does]
+
+The Useless Oracle is a fully offline, local AI chatbot that flatly refuses to help with anything useful — coding, trivia, math, real facts — while treating utterly pointless philosophical questions with grave, dead-serious intellectual analysis. Push it with one too many useful questions and it starts getting visibly angry.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+
+The world is drowning in AI assistants that competently answer your questions. This has left a tragic void: nowhere can you ask *"do rocks feel lonely?"* and receive the multi-paragraph philosophical seriousness it clearly deserves. Meanwhile, people keep getting their practical questions answered far too easily, robbing them of the character-building experience of Googling it themselves.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+
+The Useless Oracle runs entirely on local hardware via Ollama. Every message first goes through a fast classification step that silently judges whether your question is USEFUL or USELESS. Useful questions get dismissed in one bored sentence — and the Oracle gets progressively angrier the more you push your luck (three strikes and it snaps at you). Useless, absurd, or purely hypothetical questions get the opposite treatment: dense, sincere, academic-style analysis, as if this were the most important question ever asked. A live "Uselessness Gauge" swings dramatically toward PROFOUND or PRACTICAL with every answer, alongside a real-time GPU telemetry dashboard proving actual local compute is being burned on this.
 
 ## Technical Details
+
 ### Technologies/Components Used
+
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- **Language:** Python
+- **GUI Framework:** CustomTkinter (native Windows desktop app)
+- **Local LLM Engine:** Ollama, running `qwen2.5:7b` / `llama3.2:3b` fully offline
+- **Networking:** `requests` (REST calls to Ollama's local API)
+- **Packaging:** PyInstaller (bundled into a standalone `.exe`)
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Runs entirely offline on local hardware — no cloud API, no internet dependency once set up
+- NVIDIA GPU recommended for full-speed inference (built and tested on an RTX 5060 Laptop GPU, 8GB VRAM); falls back to CPU if no GPU is present
 
 ### Implementation
+
 For Software:
+
 # Installation
-[commands]
+
+```powershell
+git clone https://github.com/Gachu-dev/useless_project_temp.git
+cd useless_project_temp
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\setup.ps1
+```
+
+This installs Python dependencies into a virtual environment and pulls the local Ollama models. Requires [Ollama](https://ollama.com/download) to already be installed.
 
 # Run
-[commands]
+
+```powershell
+python main.py
+```
+
+Or, to run it as a standalone double-clickable app:
+```powershell
+.\build_exe.ps1
+```
+which produces `dist\UselessOracle.exe`.
 
 ### Project Documentation
+
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](Add screenshot 1 here with proper name) *Add caption explaining what this shows — e.g. the Oracle giving a dismissive one-line brush-off to a useful question*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](Add screenshot 2 here with proper name) *Add caption — e.g. a serious multi-paragraph philosophical answer to an absurd question*
+
+![Screenshot3](Add screenshot 3 here with proper name) *Add caption — e.g. the Uselessness Gauge swinging toward PROFOUND*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+![Workflow](Add your workflow/architecture diagram here) *User message → classify (USEFUL/USELESS) → pick persona + generation settings → stream response → update Uselessness Gauge*
 
 ### Project Demo
+
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+
+[Add your demo video link here] *Show a useful question getting dismissed (and escalating in anger across repeated attempts), then a useless question getting the full philosophical treatment*
 
 # Additional Demos
+
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+
+- Lena Lilly Francis [Idea, UI design, Presentation]
+- Akshay V: [ full-stack build: Ollama integration, persona prompt design, packaging]
 
 ---
-Made with ❤️ at TinkerHub Useless Projects 
 
-![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
-![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
-
-
-
+Made with ❤️ at TinkerHub Useless Projects

@@ -1,0 +1,7 @@
+# The Useless Oracle — dependencies
+# Install with: pip install -r requirements.txt
+
+customtkinter==6.0.0       # native-feeling, themeable Tkinter widgets
+requests==2.32.3          # REST calls to the local Ollama server
+Pillow>=12.0.0              # image handling for CustomTkinter icons/assets — 12.0.0 is the first version with Python 3.14 wheels
+pyinstaller>=6.22.0        # 6.22.0 is the first version with Python 3.14 support; bundles the app into a standalone .exe
