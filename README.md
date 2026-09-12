@@ -68,7 +68,7 @@ which produces `dist\UselessOracle.exe`.
 
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots 
 
 <img width="1074" height="1061" alt="ccd461e0-4cde-4872-8260-c195be8b76fa" src="https://github.com/user-attachments/assets/e0df49aa-8f90-4857-b9f0-92b9f35a9a18" />
  *The oracle responding to multiple useful question.*
