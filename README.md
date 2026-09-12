@@ -6,7 +6,7 @@
 ### Team Name: [Akena]
 
 ### Team Members
-- Team Lead: [Lena Lilly] Francis - [Christ College Of Engineering]
+- Team Lead: [Lena Lilly Francis] - [Christ College Of Engineering]
 - Member 2: [Akshay V] - [Christ College Of Engineering]
 
 
